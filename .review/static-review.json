@@ -1,0 +1,223 @@
+{
+  "generator": "repository-static-triage",
+  "version": "1.0",
+  "repository": "vikasdotvivek/particle_filter",
+  "revision": "bbf13f68a806d55556cb6ca735944b97c5fa9e4e",
+  "tracked_files": 44,
+  "scanned": [
+    {
+      "path": "deprecated/CMakeLists.txt",
+      "lines": 199,
+      "bytes": 6858
+    },
+    {
+      "path": "deprecated/src/particle_filter.py",
+      "lines": 687,
+      "bytes": 31815
+    },
+    {
+      "path": "deprecated/src/utils.py",
+      "lines": 187,
+      "bytes": 6903
+    },
+    {
+      "path": "launch/localize_launch.py",
+      "lines": 78,
+      "bytes": 2992
+    },
+    {
+      "path": "particle_filter/__init__.py",
+      "lines": 0,
+      "bytes": 0
+    },
+    {
+      "path": "particle_filter/particle_filter.py",
+      "lines": 726,
+      "bytes": 32874
+    },
+    {
+      "path": "particle_filter/utils.py",
+      "lines": 190,
+      "bytes": 7025
+    },
+    {
+      "path": "setup.py",
+      "lines": 31,
+      "bytes": 992
+    },
+    {
+      "path": "test/test_copyright.py",
+      "lines": 23,
+      "bytes": 790
+    },
+    {
+      "path": "test/test_flake8.py",
+      "lines": 25,
+      "bytes": 884
+    },
+    {
+      "path": "test/test_pep257.py",
+      "lines": 23,
+      "bytes": 803
+    }
+  ],
+  "skipped": [
+    {
+      "path": ".github/workflows/code-improvement-review.yml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": ".gitignore",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "README.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "config/localize.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "deprecated/localize.launch",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "deprecated/map_server.launch",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "deprecated/old_package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "deprecated/slime.launch",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "docs/Lab5.pdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "docs/RangeLibcUsageandInformation.pdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/Hockenheim_map.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/Hockenheim_map.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/Silverstone_map.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/Silverstone_map.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/cps_2023.pgm",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/cps_2023.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/cps_2023_old.pgm",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/cps_2023_old.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/e7_floor3_merged.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/e7_floor3_merged.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/e7_floor5.pgm",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/e7_floor5.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/e7_floor5_bigger.pgm",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "maps/e7_floor5_bigger.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/e7_floor5_biggest.pgm",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "maps/e7_floor5_biggest.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "maps/e7_floor5_biggest_RAW.pgm",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "media/comparison.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "media/thumb.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "resource/particle_filter",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "rviz/pf.rviz",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "setup.cfg",
+      "reason": "non-source format; content not audited"
+    }
+  ],
+  "manifests": [
+    "deprecated/CMakeLists.txt",
+    "package.xml",
+    "setup.py"
+  ],
+  "conventional_test_paths": [
+    "test/test_copyright.py",
+    "test/test_flake8.py",
+    "test/test_pep257.py"
+  ],
+  "findings": [
+    {
+      "rule": "python3-parse",
+      "priority": "P1",
+      "path": "deprecated/src/particle_filter.py",
+      "line": 128,
+      "title": "Does not parse with the audit runner Python 3",
+      "recommendation": "Confirm the intended Python version. This may be legacy Python 2 rather than an unintended syntax error; compile with the supported interpreter.",
+      "status": "review-required",
+      "source": "https://github.com/vikasdotvivek/particle_filter/blob/bbf13f68a806d55556cb6ca735944b97c5fa9e4e/deprecated/src/particle_filter.py#L128"
+    }
+  ],
+  "total_findings": 1,
+  "findings_omitted": 0,
+  "execution": "No repository code, tests, builds or hardware were executed."
+}
